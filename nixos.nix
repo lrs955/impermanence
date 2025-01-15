@@ -112,7 +112,7 @@ in
                 options = {
                   method = mkOption {
                     type = enum [ "bind" "symlink" ];
-                    default = "bind";
+                    default = "symlink";
                     description = ''
                       Whether to use a bind mount or a plain symlink to persist this.
                     '';
